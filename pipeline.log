@@ -1,0 +1,31 @@
+2026-05-14 07:42:13,897 [INFO] ==================================================
+2026-05-14 07:42:13,897 [INFO] PIPELINE START
+2026-05-14 07:42:13,898 [INFO] ==================================================
+2026-05-14 07:42:13,910 [INFO] STEP 1/3 — EXTRACT
+2026-05-14 07:42:13,911 [INFO] Extracting all sources...
+2026-05-14 07:42:14,290 [INFO] Extraction complete — 131,364 total records
+2026-05-14 07:42:14,290 [INFO] STEP 2/3 — TRANSFORM
+2026-05-14 07:42:14,290 [INFO] Transforming customers...
+2026-05-14 07:43:39,977 [INFO] ==================================================
+2026-05-14 07:43:39,977 [INFO] PIPELINE START
+2026-05-14 07:43:39,977 [INFO] ==================================================
+2026-05-14 07:43:39,987 [INFO] STEP 1/3 — EXTRACT
+2026-05-14 07:43:39,988 [INFO] Extracting all sources...
+2026-05-14 07:43:40,423 [INFO] Extraction complete — 131,364 total records
+2026-05-14 07:43:40,424 [INFO] STEP 2/3 — TRANSFORM
+2026-05-14 07:43:40,425 [INFO] Transforming customers...
+2026-05-14 07:43:40,444 [INFO]   2,000 customers transformed
+2026-05-14 07:43:40,444 [INFO] Transforming orders...
+2026-05-14 07:43:40,573 [INFO]   24,995 orders transformed
+2026-05-14 07:43:40,576 [INFO] Transforming products...
+2026-05-14 07:43:40,580 [INFO]   120 products transformed
+2026-05-14 07:43:40,580 [INFO] Transforming pipeline...
+2026-05-14 07:43:40,586 [INFO]   3,000 opportunities transformed
+2026-05-14 07:43:40,586 [INFO] STEP 3/3 — LOAD
+2026-05-14 07:43:40,694 [INFO]   Loaded 'dim_customers': 2,000 rows
+2026-05-14 07:43:42,275 [INFO]   Loaded 'fact_orders': 24,995 rows
+2026-05-14 07:43:42,299 [INFO]   Loaded 'dim_products': 120 rows
+2026-05-14 07:43:42,409 [INFO]   Loaded 'fact_pipeline': 3,000 rows
+2026-05-14 07:43:42,409 [INFO] All tables loaded.
+2026-05-14 07:43:42,409 [INFO] PIPELINE COMPLETE in 2.4s
+2026-05-14 07:43:42,409 [INFO] ==================================================

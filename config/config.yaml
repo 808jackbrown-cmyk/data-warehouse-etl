@@ -1,0 +1,15 @@
+database:
+  connection: "${WAREHOUSE_URL}"
+sources:
+  crm:
+    type: csv
+    path: data/crm/
+  financial:
+    type: sqlite
+    connection: "sqlite:///data/sample.db"
+  operational:
+    type: sqlite
+    connection: "sqlite:///data/sample.db"
+pipeline:
+  chunk_size: 5000
+  max_workers: 4
