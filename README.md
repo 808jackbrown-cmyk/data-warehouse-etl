@@ -1,2 +1,4 @@
-# data-warehouse-etl
-Python ETL pipeline + SQL warehouse integrating CRM, financial, and operational data
+# Remove the log file from the repo
+git rm pipeline.log
+git commit -m "chore: remove pipeline.log from tracking"
+git push
